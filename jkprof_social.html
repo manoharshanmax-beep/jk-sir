@@ -140,7 +140,7 @@ body.jkprof-leaving main,body.jkprof-leaving footer{opacity:0;transform:translat
 .jkprof-imgreveal img{transform:scale(1.16);transition:transform 2s var(--jkp-ease) .25s}
 .jkprof-in .jkprof-imgreveal img,.jkprof-imgreveal.jkprof-in img{transform:scale(1)}
 .jkprof-rise{opacity:0;transform:translateY(24px);animation:jkprof-rise 1s var(--jkp-ease) forwards;animation-delay:calc(var(--d,0)*1ms + 250ms)}
-@keyframes jkprof-rise{to{opacity:1;transform:none}}
+@keyframes jkprof-rise{to{opacity:1;transform:none;filter:none}}
 .jkprof-split span.jkprof-ch{display:inline-block;opacity:0;transform:translateY(60%);filter:blur(6px);animation:jkprof-rise 1s var(--jkp-ease) forwards;animation-delay:calc(var(--i)*38ms + 350ms)}
 .jkprof-word{display:inline-block;white-space:nowrap}
 
